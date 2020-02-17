@@ -29,10 +29,24 @@
     </StepButton>
     <StepButton Id="73723755-005b-4148-a2bd-5b7a6aa4517f" DisplayName="未命名" Name="楼梯口疏散" Sprite="shusan" Role="站台安全员">
       <MoveStep Id="4ec919cf-66b6-47b6-be1f-9cfce89b5799" DisplayName="未命名" PositionObjName="站务员-疏散" Navigation="false" />
-      <ActionStep Id="80702f31-9805-45f1-9c96-a1281d4223b8" DisplayName="未命名" ActionType="Event" Name="站务员" PositionObjName="站务员-疏散" Rename="站务员-疏散" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Evacuate" />
+      <ActionStep Id="80702f31-9805-45f1-9c96-a1281d4223b8" DisplayName="未命名" ActionType="Event" Name="站务员" PositionObjName="站务员-疏散" Rename="站务员-疏散1" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Evacuate" />
       <DialogStep Id="72c83e70-8f14-419f-9c58-ee18511edbca" DisplayName="未命名" Role="乘客" Message="你好，请向里面走，不要拥挤在门口。" />
       <DialogStep Id="47d51899-4e83-4867-9dcc-ccc34515e0c0" DisplayName="未命名" Role="乘客" Message="哦，好的。" />
+      <OperationStep Id="6a49753a-bd3a-4255-85e9-1ed79c2bb0ca" DisplayName="未命名" Name="站务员-疏散1" OperationType="Destroy" />
+      <ActionStep Id="80702f31-9805-45f1-9c96-a1281d4223b8" DisplayName="未命名" ActionType="Event" Name="站务员" PositionObjName="站务员-疏散" Rename="站务员-疏散" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Evacuate" />
       <OperationStep Id="da7e14a8-0e4f-47b5-b892-837df97f05c6" DisplayName="未命名" Name="站务员-疏散" OperationType="Destroy" />
+      <ActionStep Id="3fe6c4c2-c394-4387-91ba-bd812a3188f4" DisplayName="疏散群众" ActionType="Arrive" Name="乘客男1" PositionObjName="乘客-疏散跑" Rename="乘客男1" Destroy="true" LookUp="false" Keep="true" WaitTime="1" Condition="Run" >
+        <Waypoint Name="乘客-疏散跑" Speed="5" Rotation="" />
+      </ActionStep>
+      <ActionStep Id="3fe6c4c2-c394-4387-91ba-bd812a3188f4" DisplayName="疏散群众" ActionType="Arrive" Name="乘客男1" PositionObjName="乘客-疏散跑" Rename="乘客男2" Destroy="true" LookUp="false" Keep="true" WaitTime="2" Condition="Run" >
+        <Waypoint Name="乘客-疏散跑" Speed="5" Rotation="" />
+      </ActionStep>
+      <ActionStep Id="3fe6c4c2-c394-4387-91ba-bd812a3188f4" DisplayName="疏散群众" ActionType="Arrive" Name="乘客男1" PositionObjName="乘客-疏散跑" Rename="乘客男3" Destroy="true" LookUp="false" Keep="true" WaitTime="3" Condition="Run" >
+        <Waypoint Name="乘客-疏散跑" Speed="5" Rotation="" />
+      </ActionStep>
+      <OperationStep Id="6a49753a-bd3a-4255-85e9-1ed79c2bb0ca" DisplayName="未命名" Name="乘客男1" WaitTime="1" OperationType="Destroy" />
+      <OperationStep Id="6a49753a-bd3a-4255-85e9-1ed79c2bb0ca" DisplayName="未命名" Name="乘客男2" WaitTime="1" OperationType="Destroy" />
+      <OperationStep Id="6a49753a-bd3a-4255-85e9-1ed79c2bb0ca" DisplayName="未命名" Name="乘客男3" WaitTime="1" OperationType="Destroy" />
     </StepButton>
     <StepButton Id="b36aa3ea-3943-47d0-b0b2-7d60eb013896" DisplayName="未命名" Name="关闭部分闸机" Sprite="zhajijinxing" Role="值班站长">
       <MoveStep Id="b9d4ce65-5cc6-4ca5-9d0f-72e87c04ee93" DisplayName="未命名" PositionObjName="闸机-关闭" Navigation="false" />
