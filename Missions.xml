@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMission xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mission Id="d085c5c6-e365-4834-acd5-cff311b87d13" DisplayName="未命名" Name="站台大客流">
+    <StepButton Id="c9b066fd-de89-405f-a012-a08816b63d11" DisplayName="未命名" Name="自动执行" Role="乘客">
+      <MoveStep Id="76c9ad61-6b70-4b37-9d70-aeb6c8c4af53" DisplayName="未命名" PositionObjName="乘客-进场" Navigation="true" />
+      <ActionStep Id="c914edbd-b225-4a88-84dd-46a25f0a7a8b" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点1" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="25ec8695-f4a4-4e48-bd32-02ec054e85cb" DisplayName="未命名" ActionType="Clone" Name="乘客女2" PositionObjName="候车点2" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="4064ae79-1519-468b-bffa-d5e3fd0eac22" DisplayName="未命名" ActionType="Clone" Name="乘客男1" PositionObjName="候车点3" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="781cb53a-0e1c-4219-b93f-1ec3bba7fb67" DisplayName="未命名" ActionType="Clone" Name="乘客男2" PositionObjName="候车点4" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="090ca012-bfd3-4c4f-bf1d-be7ee1e4efcb" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点5" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="870b1b25-b194-4ad6-b444-3106b6ad8b9a" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点6" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="96ef9fe6-6dc4-4db5-b5b1-800de23d9048" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点7" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="8c66ba38-ba0b-4e82-990a-0f74c081c7fb" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点8" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="ece63627-8809-4f08-98b4-8e4e2ce5709d" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点9" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="f82233ca-35f7-421f-ac2d-ad60d373a874" DisplayName="未命名" ActionType="Clone" Name="乘客男1" PositionObjName="候车点10" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="9c1c6515-5880-40e2-833c-17feee1b75fe" DisplayName="未命名" ActionType="Clone" Name="乘客男2" PositionObjName="候车点11" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="25b1778a-cd40-4079-816b-95144944b5f7" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点12" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="3d2c7cea-b054-4e3a-aa6b-67f71f9179ee" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点13" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="949180cb-adea-459b-a1c6-62a601462a0e" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点14" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="063bcc13-f42d-4f63-ae9f-0a26a88738e9" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点15" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="d264bdf9-7c33-4823-8969-e940a1778142" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点16" Rename="乘客-黄线内" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="7e77e10b-c0b4-422f-98d7-cb271d53ec87" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点17" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="5c2babc0-b2f9-4c1f-b5ec-ab7f41f7af5b" DisplayName="未命名" ActionType="Clone" Name="女人" PositionObjName="候车点18" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="1560bbad-5530-4989-b875-364ee570f9d8" DisplayName="未命名" ActionType="Clone" Name="乘客女2" PositionObjName="候车点19" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="7226b74b-f582-4149-a994-cd4300a10a82" DisplayName="未命名" ActionType="Clone" Name="乘客女2" PositionObjName="候车点20" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="7f4e8af8-11f8-4d13-99e1-ca9fd328d70b" DisplayName="未命名" ActionType="Arrive" Name="乘客女2" PositionObjName="乘客-进场" Rename="乘客-站台候车" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Walk">
+        <Waypoint Name="乘客-进场" Speed="1" Rotation="0,180.86,0" />
+      </ActionStep>
+    </StepButton>
+    <StepButton Id="73723755-005b-4148-a2bd-5b7a6aa4517f" DisplayName="未命名" Name="楼梯口疏散" Sprite="shusan" Role="站台安全员">
+      <MoveStep Id="4ec919cf-66b6-47b6-be1f-9cfce89b5799" DisplayName="未命名" PositionObjName="站务员-疏散" Navigation="false" />
+      <ActionStep Id="80702f31-9805-45f1-9c96-a1281d4223b8" DisplayName="未命名" ActionType="Event" Name="站务员" PositionObjName="站务员-疏散" Rename="站务员-疏散" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Evacuate" />
+      <DialogStep Id="72c83e70-8f14-419f-9c58-ee18511edbca" DisplayName="未命名" Role="乘客" Message="你好，请向里面走，不要拥挤在门口。" />
+      <DialogStep Id="47d51899-4e83-4867-9dcc-ccc34515e0c0" DisplayName="未命名" Role="乘客" Message="哦，好的。" />
+      <OperationStep Id="da7e14a8-0e4f-47b5-b892-837df97f05c6" DisplayName="未命名" Name="站务员-疏散" OperationType="Destroy" />
+    </StepButton>
+    <StepButton Id="b36aa3ea-3943-47d0-b0b2-7d60eb013896" DisplayName="未命名" Name="关闭部分闸机" Sprite="zhajijinxing" Role="值班站长">
+      <MoveStep Id="b9d4ce65-5cc6-4ca5-9d0f-72e87c04ee93" DisplayName="未命名" PositionObjName="闸机-关闭" Navigation="false" />
+      <ActionStep Id="be88a41e-d01b-4019-abc3-24cc1aef4750" DisplayName="未命名" ActionType="Clone" Name="箭头" Rename="箭头-闸机关闭" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <OperationStep Id="6a49753a-bd3a-4255-85e9-1ed79c2bb0ca" DisplayName="未命名" Name="箭头-闸机关闭" OperationType="Click" />
+      <ActionStep Id="07121f2e-d23e-42fd-9d2e-5e4ceff3a95f" DisplayName="未命名" ActionType="Clone" Name="禁止通行" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <TipStep Id="f0819f4c-5ebb-4067-bff4-11c3a70b4b42" DisplayName="未命名" TipContent="操作成功" />
+    </StepButton>
+    <StepButton Id="80e684f5-65e9-41a9-bbbf-394f94f74f3b" DisplayName="未命名" Name="让乘客往里走" Sprite="gaoshipai" Role="站务员">
+      <MoveStep Id="b1f5a542-46f3-47b3-8f5c-cbdc425b1388" DisplayName="未命名" PositionObjName="乘客-往里走" Navigation="false" />
+      <ActionStep Id="0ca9ccb9-c1ef-4782-83b3-858c7b958d48" DisplayName="未命名" ActionType="Arrive" Name="乘客-站台候车" Destroy="true" LookUp="true" Keep="false" WaitTime="0" Condition="Walk">
+        <Waypoint Name="乘客-往里走" Speed="1" />
+      </ActionStep>
+    </StepButton>
+    <StepButton Id="82959b07-9b5e-4a57-a03a-752d8f0e58e7" DisplayName="未命名" Name="地铁口只出不进" Sprite="tiema" Role="站务员">
+      <MoveStep Id="c6bc7eb8-719b-4079-b232-21f04fc8fd7b" DisplayName="未命名" PositionObjName="电梯口-隔离带" Navigation="false" />
+      <ActionStep Id="de870756-b1df-4caf-ba55-fe183dab7386" DisplayName="未命名" ActionType="Wait" Name="隔离带" Destroy="false" LookUp="false" Keep="false" WaitTime="5" />
+    </StepButton>
+    <StepButton Id="3b7f8cb2-0de2-4c3a-a4cb-e222bf6e7c04" DisplayName="未命名" Name="站在黄线以外" Sprite="linshidaoxiang" Role="站台安全员">
+      <MoveStep Id="9b7e4f09-f071-4476-a6e8-518a3bb55d5b" DisplayName="未命名" PositionObjName="乘客-退一步" Navigation="false" />
+      <ActionStep Id="a3dea725-a059-45b9-b6d3-a8066dc99d8a" DisplayName="未命名" ActionType="Arrive" Name="乘客-黄线内" Destroy="false" LookUp="true" Keep="false" WaitTime="0" Condition="Walk">
+        <Waypoint Name="乘客-退一步" Speed="1" />
+      </ActionStep>
+    </StepButton>
+    <StepButton Id="c37d0453-4fe9-414d-b622-fa6bc29c0e68" DisplayName="未命名" Name="广播" Sprite="guangbo" Role="行车值班员">
+      <MoveStep Id="6aa1d03e-db05-4b8f-8603-e4687f3ae8a2" DisplayName="未命名" PositionObjName="广播" Navigation="false" />
+      <ActionStep Id="bfe7bcf6-1f46-4196-a5e5-0c148b9b4927" DisplayName="未命名" ActionType="Clone" Name="喇叭" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="18b38e73-8ad8-48af-8e8f-bb86016be632" DisplayName="未命名" ActionType="Clone" Name="声音2" PositionObjName="声音特效" Rename="特效-声音" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <AudioStep Id="9c42b93f-8c66-4742-b4d8-1ee8ce69c228" DisplayName="未命名" Name="dakeliu" TimeLength="13.5" />
+      <OperationStep Id="b64c98b8-e77b-4ddd-ad40-be26e54a54d1" DisplayName="未命名" Name="特效-声音" OperationType="Destroy" />
+    </StepButton>
+    <StepButton Id="be725681-4442-4ed0-b7cf-05606e7233a8" DisplayName="未命名" Name="开空调" Sprite="jiadafengfa" Role="行车值班员">
+      <MoveStep Id="08e82e93-5a70-4b20-8187-01e814ccbabb" DisplayName="未命名" PositionObjName="开空调" Navigation="false" />
+      <ActionStep Id="59687287-3fde-43fd-a5b2-bf7afabc2da1" DisplayName="未命名" ActionType="Clone" Name="空调冷气" Rename="特效-开空调" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <WaitStep Id="fdd67cce-6a0a-42d2-bd3c-218429b074b3" DisplayName="未命名" WaitTime="3" />
+    </StepButton>
+    <StepButton Id="143bef02-26a8-4126-a37f-714aa194771f" DisplayName="未命名" Name="通过CCTV监控现场情况" Sprite="11 (2)" Role="行车值班员">
+      <MoveStep Id="c4c50b83-90f9-4c4e-8c51-e011cc9068fc" DisplayName="未命名" PositionObjName="监控" Navigation="false" />
+    </StepButton>
+  </Mission>
+  <Mission Id="ebdb0c20-7d8b-40cd-8054-6279e0413ee8" DisplayName="未命名" Name="隧道火灾">
+    <StepButton Id="06817b68-3b12-4938-86f6-1d6aa7670323" DisplayName="未命名" Name="自动执行" Role="乘客">
+      <MoveStep Id="f0b33704-6965-4165-9008-7965ebe178e6" DisplayName="未命名" PositionObjName="起火点-进场" Navigation="false" />
+      <ActionStep Id="115035e6-b289-4f97-8c76-ecfb895a6992" DisplayName="未命名" ActionType="Clone" Name="起火点" Rename="特效-起火" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <WaitStep Id="c71d2312-f2ea-43fb-a15c-01b1b18ae177" DisplayName="未命名" WaitTime="3" />
+      <MoveStep Id="17e144ad-93ee-405d-a1be-de52eb9dfb6c" DisplayName="未命名" PositionObjName="列车-进场" Navigation="false" />
+      <ActionStep Id="4be1b387-99ea-4d94-804a-f1c09ea1fee3" DisplayName="未命名" ActionType="Wait" Name="列车" Destroy="false" LookUp="true" Keep="false" WaitTime="3" Condition="Run" />
+      <MoveStep Id="e9cced43-4e07-4f33-a2aa-6b3f5a1bf928" DisplayName="未命名" PositionObjName="消防员-灭火" Navigation="false" />
+      <OperationStep Id="57726477-6c89-49bf-a118-de07ebfb78b7" DisplayName="未命名" Name="列车" OperationType="AnimationCancel" Condition="Run" />
+    </StepButton>
+    <StepButton Id="6953a327-7060-44a4-9e8c-9d175b53b42c" DisplayName="未命名" Name="发现火灾，向值班站长汇报" Sprite="11 #471489" Role="站务员">
+      <ActionStep Id="f9d97609-f9e6-43e0-8bdb-6417a70949cd" DisplayName="未命名" ActionType="Event" Name="站务员" PositionObjName="站务员-对讲" Rename="站务员-汇报" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Talk" />
+      <DialogStep Id="9d1a693d-7ea8-4206-a43d-9f19b5567b48" DisplayName="未命名" Role="乘客" Message="报告，隧道发生火灾。" />
+      <DialogStep Id="03dd3428-adfc-431d-b6b8-bf489f02ade0" DisplayName="未命名" Role="乘客" Message="收到。" />
+      <OperationStep Id="5195575b-2dce-4b96-b74c-31d375eaf422" DisplayName="未命名" Name="站务员-汇报" OperationType="Destroy" />
+    </StepButton>
+    <StepButton Id="cf3e4d1b-1c3a-4e52-a319-c38f7bd74275" DisplayName="未命名" Name="切断电源" Sprite="kaiguan4" Role="站务员">
+      <MoveStep Id="a35065d7-b094-4f91-a2b2-df602a379a77" DisplayName="未命名" PositionObjName="切断电源" Navigation="false" />
+      <ActionStep Id="93b02ec0-7d5d-4ec2-b9a2-5e8e4ee7a641" DisplayName="未命名" ActionType="Clone" Name="箭头" Rename="箭头-切断电源" Destroy="false" LookUp="false" Keep="true" WaitTime="0" Condition="Power" />
+      <OperationStep Id="162034b1-9a9b-4085-96f4-460d11fce190" DisplayName="未命名" Name="箭头-切断电源" OperationType="Click" />
+      <TipStep Id="444351ff-87f8-4447-a60d-51e7b813248d" DisplayName="未命名" TipContent="控制中心操作人员通过应急预案关闭预设好的部分电力设备" />
+    </StepButton>
+    <StepButton Id="03d38972-800d-4341-96ca-c725f0a4419c" DisplayName="未命名" Name="引导乘客疏散" Sprite="shusan" Role="站台安全员">
+      <MoveStep Id="5aefb21b-33f2-40a7-acc5-6018d8a9dfb0" DisplayName="未命名" PositionObjName="乘客-疏散" Navigation="false" />
+      <ActionStep Id="fcd2bd51-1bcb-426a-a2a3-95f90f6ebd04" DisplayName="未命名" ActionType="Wait" Name="车站10.11" Destroy="false" LookUp="true" Keep="true" WaitTime="3" Condition="Open" />
+      <ActionStep Id="ed989517-8a0e-4fa2-a2ee-cba9828a2ca8" DisplayName="未命名" ActionType="Clone" Name="女人" Destroy="true" LookUp="false" Keep="true" WaitTime="1" Condition="Walk">
+        <Waypoint Name="乘客-疏散" Speed="1" />
+      </ActionStep>
+      <ActionStep Id="5668038c-c644-4869-8c02-ad3ac93696a4" DisplayName="未命名" ActionType="Clone" Name="女人" Destroy="true" LookUp="false" Keep="true" WaitTime="2" Condition="Walk">
+        <Waypoint Name="乘客-疏散" Speed="1" />
+      </ActionStep>
+      <ActionStep Id="73e34d4b-1cba-4054-a92e-ec70829e3d4d" DisplayName="未命名" ActionType="Clone" Name="女人" Destroy="true" LookUp="false" Keep="true" WaitTime="3" Condition="Walk">
+        <Waypoint Name="乘客-疏散" Speed="1" />
+      </ActionStep>
+    </StepButton>
+    <StepButton Id="6fb4aea3-38e7-4a3d-9b90-ffe7e013aa1c" DisplayName="未命名" Name="就近取用灭火器对火源进行扑灭" Sprite="qitimiehuoqi" Role="站务员">
+      <MoveStep Id="f9e08004-a555-40ff-807c-85605aa9a6f8" DisplayName="未命名" PositionObjName="消防员-灭火" Navigation="false" />
+      <ActionStep Id="34a8b8a5-319b-4686-b841-c4bc289c3e08" DisplayName="未命名" ActionType="Arrive" Name="站务员-灭火" PositionObjName="消防员-灭火" Rename="站务员-灭火" Destroy="false" LookUp="false" Keep="false" WaitTime="0" Condition="Run">
+        <Waypoint Name="消防员-灭火" Speed="3.5" Rotation="3.793,50,0" />
+      </ActionStep>
+      <ActionStep Id="0d666cb8-89d4-4df3-9780-ca4053bf9030" DisplayName="未命名" ActionType="Event" Name="站务员-灭火" Destroy="false" LookUp="true" Keep="false" WaitTime="0" Condition="Open" />
+      <ActionStep Id="67b25210-84d5-47e3-807a-8e8db607d9a6" DisplayName="未命名" ActionType="Clone" Name="灭火点" Rename="特效-喷射" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <WaitStep Id="e2eb251d-0114-4b90-a707-6c5c072afa76" DisplayName="未命名" WaitTime="5" />
+      <OperationStep Id="4cf5d630-24d4-402e-b591-a4bc30c4b045" DisplayName="未命名" Name="特效-起火" OperationType="EffectCancel" />
+      <WaitStep Id="c13b35e4-8c3d-4c85-a947-af639945a14a" DisplayName="未命名" WaitTime="1" />
+      <OperationStep Id="315912dc-d0bc-45b1-8f11-7cc233223c7e" DisplayName="未命名" Name="特效-喷射" OperationType="EffectCancel" />
+      <WaitStep Id="88ab2d5b-01a9-4f12-8a93-9b220751411c" DisplayName="未命名" WaitTime="1" />
+      <OperationStep Id="85439312-bc80-4e21-a32a-ffc5c3f78b9d" DisplayName="未命名" Name="站务员-灭火" OperationType="Destroy" />
+    </StepButton>
+    <StepButton Id="fd21de05-0dc4-4735-bf7a-bb08606f8ecb" DisplayName="未命名" Name="通过PA通知乘客进行疏散" Sprite="guangbo" Role="行车值班员">
+      <MoveStep Id="501b0131-e1de-4b9a-950b-d5e48471cc02" DisplayName="未命名" PositionObjName="广播" Navigation="false" />
+      <ActionStep Id="34df7c91-531d-49ad-a7be-a09652013d61" DisplayName="未命名" ActionType="Clone" Name="喇叭" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="dd617eeb-0dd4-4a9d-b0a9-3fdd904e1d5f" DisplayName="未命名" ActionType="Clone" Name="声音" Rename="特效-声音" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <AudioStep Id="4646b621-a8bf-440c-b77b-d35e3acea195" DisplayName="未命名" Name="huozai" TimeLength="15.5" />
+      <OperationStep Id="4bda1ff2-921b-4bf6-8741-3e8a11e10b84" DisplayName="未命名" Name="特效-声音" OperationType="Destroy" />
+    </StepButton>
+    <StepButton Id="e28bf6fb-7687-4cfe-9be4-e55b413ba700" DisplayName="未命名" Name="隧道通风" Sprite="jiadafengfa" Role="行车值班员">
+      <MoveStep Id="40246b62-2659-4fc2-a803-354993c89474" DisplayName="未命名" PositionObjName="风机-转动" Navigation="false" />
+      <ActionStep Id="868a7467-136e-4f31-a06f-86aa0ca76b7a" DisplayName="未命名" ActionType="Clone" Name="抽风" Rename="特效-抽风" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <ActionStep Id="8ba2cde3-4f55-49f6-ac6e-086289f8ad25" DisplayName="未命名" ActionType="Wait" Name="新风扇" Destroy="false" LookUp="false" Keep="true" WaitTime="3" Condition="Run" />
+    </StepButton>
+    <StepButton Id="eaeb55a7-d308-4d38-a27a-46c570401f4d" DisplayName="未命名" Name="打开隧道灯" Sprite="dakaisuidaodeng" Role="行车值班员">
+      <MoveStep Id="f06c78ec-fd8f-4565-ae78-9503b1de949e" DisplayName="未命名" PositionObjName="起火点-进场" Navigation="false" />
+      <ActionStep Id="91d8c6d3-a694-4564-b86c-88de1433a666" DisplayName="未命名" ActionType="Clone" Name="隧道灯" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+    </StepButton>
+    <StepButton Id="e3392f7c-ed5b-4af5-a161-d63e50f9456c" DisplayName="未命名" Name="呼叫消防人员" Sprite="119" Role="行车值班员">
+      <MoveStep Id="427c9b3c-e532-42b4-8ab3-582028f12bd5" DisplayName="未命名" PositionObjName="起火点-进场" Navigation="false" />
+      <DialogStep Id="2bb4ab2c-5187-455e-b3a8-56cf2c8a5322" DisplayName="未命名" Role="乘客" Message="报告，隧道发生火灾。" />
+      <DialogStep Id="0c31d151-11a6-419f-9e23-b07086075ee6" DisplayName="未命名" Role="乘客" Message="收到，马上赶到！" />
+    </StepButton>
+    <StepButton Id="2d102a80-c558-443a-afde-fb95df3d6fa2" DisplayName="未命名" Name="确保所有乘客安全离开后，关闭车站出入口并张贴“车站关闭”通知" Sprite="gaoshipai" Role="站务员">
+      <MoveStep Id="cdce58f1-2fb4-499e-81cf-ba9686867e39" DisplayName="未命名" PositionObjName="关闭车站" Navigation="false" />
+      <ActionStep Id="7a189dab-b340-4a8e-b71c-74090c5bae14" DisplayName="未命名" ActionType="Wait" Name="隔离带-隧道火灾" Destroy="false" LookUp="false" Keep="false" WaitTime="5" />
+    </StepButton>
+    <StepButton Id="81cf6e61-033a-4d9a-acb7-1a3319a809c0" DisplayName="未命名" Name="在火灾扑灭后，根据上级命令，同时根据列车、车站的毁损情况，经消防部门同意后全部或局部重新开站" Sprite="pic111" Role="乘客">
+      <MoveStep Id="1cdd53bf-ff5f-4b9b-ac59-c1f3cf7967e7" DisplayName="未命名" PositionObjName="起火点-进场" Navigation="false" />
+      <DialogStep Id="4fe9d20c-f14e-49a5-a56f-1269d7d16f02" DisplayName="未命名" Role="乘客" Message="报告，隧道火灾已经全部处理完毕，请求重新开站。" />
+      <DialogStep Id="b3e143af-47cf-4d6f-b439-58762e8d0579" DisplayName="未命名" Role="乘客" Message="收到。" />
+    </StepButton>
+  </Mission>
+  <Mission Id="a2e6a987-c718-4d7f-be19-31acf19450b9" DisplayName="未命名" Name="设备房火灾">
+    <StepButton Id="6ca82bd8-f9e5-40dc-ad06-fce553ba9ae6" DisplayName="未命名" Name="自动执行" Role="乘客">
+      <MoveStep Id="cd77e0e5-62f4-47e2-802f-e6f621b25b01" DisplayName="未命名" PositionObjName="起火点-进场" Navigation="false" />
+      <ActionStep Id="db25dbd2-20a9-475d-bf2d-df3e14261098" DisplayName="未命名" ActionType="Clone" Name="起火点" PositionObjName="设备房-起火" Rename="特效-起火" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <WaitStep Id="23071294-12a9-4772-a269-562a293eeac4" DisplayName="未命名" WaitTime="3" />
+    </StepButton>
+    <StepButton Id="9d703b92-c2f7-4e15-b0ce-c5d5d069b02b" DisplayName="未命名" Name="发现火灾，向值班站长汇报" Sprite="11 #471489" Role="行车值班员">
+      <DialogStep Id="119e2853-1b60-4357-b5aa-b3f3da420500" DisplayName="未命名" Role="乘客" Message="报告，隧道发生火灾。" />
+      <DialogStep Id="db7cb593-8400-4b49-9108-c0f952e6de1e" DisplayName="未命名" Role="乘客" Message="收到。" />
+    </StepButton>
+    <StepButton Id="29f6bb7f-3771-4c01-8dad-ec0199f352c2" DisplayName="未命名" Name="确认现场状况。" Sprite="11 (2)" Role="站务员">
+      <MoveStep Id="18c3122b-9a07-4605-af0f-e005e0920d61" DisplayName="未命名" PositionObjName="监控" Navigation="false" />
+      <ActionStep Id="8a97b407-b935-4f0c-81d4-37e332475535" DisplayName="未命名" ActionType="Clone" Name="火灾" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <WaitStep Id="81e196f8-4bf7-4b93-acd7-f565503b5316" DisplayName="未命名" WaitTime="2" />
+      <TipStep Id="eec7215d-06cd-4640-9a7c-848670f4d52e" DisplayName="未命名" TipContent="已经确认。" />
+    </StepButton>
+    <StepButton Id="fba19b4a-788f-46a2-b3cd-4e1f1bf9ea65" DisplayName="未命名" Name="报警器" Sprite="119" Role="站台安全员">
+      <MoveStep Id="fe0a425f-d14b-413a-8cc9-f8a480d75dda" DisplayName="未命名" PositionObjName="报警器" Navigation="false" />
+      <ActionStep Id="1775276a-5d8f-4b01-af2d-6f25ce0b2745" DisplayName="未命名" ActionType="Clone" Name="箭头-设备房火灾" Destroy="false" LookUp="false" Keep="true" WaitTime="0" Condition="" />
+      <OperationStep Id="225326ef-66a0-45f6-bfe5-0161305769a9" DisplayName="未命名" Name="箭头-设备房火灾" OperationType="Click" />
+      <ActionStep Id="82c75871-70e3-4ee8-919d-e5489563da95" DisplayName="未命名" ActionType="Clone" Name="声音" PositionObjName="报警器" Rename="特效-声音" Destroy="false" LookUp="false" Keep="false" WaitTime="0" />
+      <AudioStep Id="41fdae3d-f804-45b1-8d30-64fe2279368a" DisplayName="未命名" Name="dakeliu" TimeLength="13.5" />
+      <OperationStep Id="3692a1f8-cdfe-496d-af34-00db6a43efac" DisplayName="未命名" Name="特效-声音" OperationType="EffectCancel" />
+    </StepButton>
+  </Mission>
+</ArrayOfMission>
